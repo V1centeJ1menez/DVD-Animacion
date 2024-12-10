@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#container {
+    width: 100vw; /* Ancho del contenedor */
+    height: 100vh; /* Alto del contenedor */
+    overflow: hidden; /* Para evitar que el svg se mueva fuera de los límites */
+}
+
+#dvd-logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: 150px;
+}
