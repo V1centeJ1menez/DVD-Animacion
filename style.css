@@ -40,3 +40,17 @@ footer {
     display: flex;
     gap: 10px;
 }
+
+#no-svg-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255); /* Fondo semi-transparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#parar:disabled {
+    background-color: gray; /* Cambiar color de fondo cuando el botón esté deshabilitado */
+}

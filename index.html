@@ -8,16 +8,16 @@
 </head>
 <body>
     <div id="container">
-        <div id="bouncing-svg"></div>
+        <div id="bouncing-svg" data-audio=""></div> <!-- Agregar data-audio vacío aquí -->
+        <div id="no-svg-message">Presiona un botón</div> <!-- Contenedor para mensaje cuando no hay SVG -->
     </div>
     <footer>
-        <div class="button-container">
-            <button data-svg="caballo">Caballo</button>
-            <button data-svg="chile">Chile</button>
-            <button data-svg="pelota">Pelota</button>
-            <button data-svg="perro">Perro</button>
-            <button data-svg="gato">Gato</button>
-        </div>
+        <button data-svg="caballo" data-audio="caballo">Caballo</button>
+        <button data-svg="chile" data-audio="chile">Chile</button>
+        <button data-svg="pelota" data-audio="pelota">Pelota</button>
+        <button data-svg="perro" data-audio="perro">Perro</button>
+        <button data-svg="gato" data-audio="gato">Gato</button>
+        <button id="parar" disabled>Parar</button> <!-- Botón de Parar/Continuar con estado deshabilitado por defecto -->
     </footer>
     <script src="script.js"></script>
 </body>
