@@ -8,11 +8,11 @@ Este proyecto simula la animación del logo de DVD rebotando en las paredes de l
 ## Cómo ejecutar
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/dvd-rebote.git
+   git clone https://github.com/tu-usuario/DVD-Animacion.git
 
 2. Ve a la carpeta del proyecto:
    ```bash
-   cd dvd-rebote
+   cd DVD-Animacion
 
 3. Instala las dependencias:
    ```bash
